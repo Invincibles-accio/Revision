@@ -6,10 +6,8 @@ import PackageContext from "./context";
 const Provider=(props) =>{
 
     let [color,setColor] = useState({
-        color:"white",
-        backgroundColor:"black",
-        fontSize:"20px",
-        border: "2px solid black",
+        colorWhite: {color:"white",backgroundColor:"black", fontSize:"20px", border: "2px solid black"},
+        colorRed: {color:"red",backgroundColor:"white", fontSize:"20px", border: "2px solid black"},
     });
     
     return(
