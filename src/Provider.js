@@ -16,7 +16,8 @@ const Provider=(props) =>{
         <PackageContext.Provider value={
             {
               defaultWhite: color,
-              defaultRed: ()=>setColor({...color, color:"red", backgroundColor: "white"})
+              defaultRed: ()=>setColor({...color, color:"red", backgroundColor: "white"}),
+              changeColor: ()=>setColor({...color, color:"Tomato"}),
 
             }
             }>
